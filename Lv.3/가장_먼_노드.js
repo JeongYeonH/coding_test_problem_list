@@ -1,6 +1,5 @@
 function solution(n, edge) {
     let graph = {};
-    let depthGraph = {};
     for(node of edge){
         const [first, second] = node;
         if(!graph[first]) graph[first] = [];
