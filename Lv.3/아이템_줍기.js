@@ -56,7 +56,6 @@ function solution(rectangle, characterX, characterY, itemX, itemY) {
         }
     }
 
-
     const shortestRoute = distance[itemY*2][itemX*2];
     return shortestRoute/2;
 }
