@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.ArrayList;
 
 class Solution {
@@ -25,7 +24,6 @@ class Solution {
         int edge1 = (maxX-minX); 
         int edge2 = edge1+(maxY-minY);
         int edge3 = edge2+edge1;
-        int edge4 = edge3+(maxY-minY);
         
         int formerY = minY-1; int formerX = minX-1;
         int currentNum = 0;
