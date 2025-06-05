@@ -80,11 +80,9 @@ class TreeNode{
         this.value = value;
         this.coverRange = coverRange;
         this.children = new ArrayList<>();
-        this.parent = null;
     }
     
     public void addChild(TreeNode child){
-        child.parent = this;
         this.children.add(child);
     }
 }
