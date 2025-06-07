@@ -73,7 +73,6 @@ class Solution {
 class TreeNode{
     String value;
     int[] coverRange;
-    TreeNode parent;
     List<TreeNode> children;
     
     public TreeNode(String value, int[] coverRange){
